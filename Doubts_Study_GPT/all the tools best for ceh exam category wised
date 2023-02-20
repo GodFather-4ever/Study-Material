@@ -1,0 +1,59 @@
+CEH (Certified Ethical Hacker) is a comprehensive certification that covers a wide range of tools and techniques used in ethical hacking. Below are some of the popular tools used in different categories that are relevant to the CEH exam:
+
+1. Scanning and Enumeration Tools:
+
+
+	* Nmap
+	* Zenmap
+	* Angry IP Scanner
+	* Netcat
+	* SuperScan
+	* Nessus
+2. Password Cracking Tools:
+
+
+	* John the Ripper
+	* Cain and Abel
+	* Hydra
+	* Hashcat
+	* Brutus
+	* Aircrack-ng
+3. Sniffing and Spoofing Tools:
+
+
+	* Wireshark
+	* Tcpdump
+	* Ettercap
+	* Scapy
+	* Snort
+	* Arpspoof
+4. Vulnerability Assessment Tools:
+
+
+	* OpenVAS
+	* Nikto
+	* QualysGuard
+	* Nexpose
+	* Retina
+	* Nessus
+5. Exploitation Tools:
+
+
+	* Metasploit Framework
+	* SET (Social Engineering Toolkit)
+	* BeEF (Browser Exploitation Framework)
+	* Exploit Pack
+	* Core Impact
+	* Canvas
+6. Forensic Tools:
+
+
+	* Autopsy
+	* FTK Imager
+	* EnCase
+	* Volatility
+	* The Sleuth Kit
+	* WinHex
+
+These are just some of the tools used in the various categories relevant to the CEH exam. It is important to note that there are many other tools available in each category, and it's up to the individual to choose the ones that work best for them.
+

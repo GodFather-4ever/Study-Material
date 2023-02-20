@@ -1,0 +1,41 @@
+The Certified Ethical Hacker (CEH) exam covers a wide range of topics related to cybersecurity, network security, and penetration testing. To prepare for the exam, it is important to have a well-structured study plan that covers all the key topics. Here is a suggested study plan:
+
+1. Introduction to Ethical Hacking and Cybersecurity
+* Understand the basics of ethical hacking, including the different types of hackers and their motivations.
+* Learn about cybersecurity concepts and the different types of cyber attacks.
+2. Footprinting and Reconnaissance
+* Understand the different footprinting and reconnaissance techniques used to gather information about a target network or system.
+* Learn about the tools and methods used for conducting footprinting and reconnaissance, including OSINT (Open-Source Intelligence) gathering techniques.
+3. Scanning Networks
+* Understand the different scanning techniques used to discover open ports, services, and vulnerabilities on a target network.
+* Learn about the tools and methods used for conducting network scans, including port scanning, vulnerability scanning, and enumeration.
+4. Enumeration and System Hacking
+* Learn about the enumeration process, which involves gathering more detailed information about a target system or network.
+* Understand the different methods and tools used for system hacking, including password cracking, privilege escalation, and backdoors.
+5. Malware Threats
+* Understand the different types of malware threats, including viruses, worms, Trojans, and ransomware.
+* Learn about the methods used for detecting and analyzing malware, including sandboxing and antivirus software.
+6. Sniffing
+* Understand the concepts of network sniffing and the different techniques used for capturing network traffic.
+* Learn about the tools and methods used for sniffing, including packet sniffers and network analyzers.
+7. Social Engineering
+* Understand the different types of social engineering attacks, including phishing, spear phishing, pretexting, and baiting.
+* Learn about the methods and techniques used for detecting and preventing social engineering attacks.
+8. Denial-of-Service (DoS) Attacks
+* Understand the different types of DoS attacks and the impact they can have on a network or system.
+* Learn about the tools and techniques used for conducting DoS attacks and the methods for preventing or mitigating these attacks.
+9. Session Hijacking
+* Understand the concept of session hijacking and the different methods used for hijacking a user session.
+* Learn about the tools and techniques used for conducting session hijacking attacks and the methods for preventing or mitigating these attacks.
+10. Web Server and Web Application Hacking
+* Understand the different types of web server and web application vulnerabilities and the methods used for exploiting them.
+* Learn about the tools and techniques used for conducting web application attacks, including SQL injection, cross-site scripting, and file inclusion attacks.
+11. Wireless Network Hacking
+* Understand the different types of wireless network vulnerabilities and the methods used for exploiting them.
+* Learn about the tools and techniques used for conducting wireless network attacks, including sniffing, cracking, and injection attacks.
+12. Cryptography
+* Understand the basics of cryptography, including encryption algorithms and key management.
+* Learn about the tools and techniques used for breaking or cracking encrypted messages.
+
+It is important to have a good mix of theoretical knowledge and practical skills to pass the CEH exam. Therefore, in addition to reading books and studying online resources, you should also practice your skills by using different tools and conducting penetration testing on your own. Good luck with your studies and the exam!
+

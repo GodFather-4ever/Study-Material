@@ -1,0 +1,56 @@
+                DEFINITION 
+   /---------------------------------------------------------------/
+    Nmap (Network Mapper) is a popular open source tool used for network exploration and security auditing. It allows network administrators and security professionals to discover hosts and services on a network, as well as to identify potential vulnerabilities in those systems.
+    /--------------------------------------------------------------/
+    
+ <--------------------------- BASIC COMMANDS --------------------------------->
+ 
+nmap <target> 
+
+@_PORT_SCAN : 
+    nmap -p <port> target   (or) nmap -p <port1>,<port2>,.. target  ---------#Scan Particular port
+    nmap -p- target  (or) nmap -p 1-65535 target                    -------- #scan full port from 1-65535
+    nmap -p 1-100 target ==> 1-100 is the range                      --------#Scan Range mentioned Ports
+    nmap --top-ports <number> target                               -----------# Scan <number> most common port
+    nmap --exclude-ports <port ranges>  target                      ----------# Exclude the specified ports from scanning
+    
+@_SCAN_TECHNIQUES :                                                                               (hint : ??> ==> "why this for?")
+        |{S --> TCP SYN ??> bypass some firewall rules }
+        |{T --> TCP connect scan  ??> Establish full TCP connection, find some services,ports,filtering and blockings}
+        |{U --> UDP scan ??> sends UDP packets and analyse ports}
+nmap -s |{A --> TCP ACK ??> sends ACK packets and Helpful in detarmining whether firewall | network device blocking particular port}
+        |{W --> window scan ??> useful in potential vuln finding}
+        |{n --> ping command ??> used for knowing whether target is online responsing or not}
+        
+@_SCAN_MULTILE_TARGETS :
+    nmap <target1> <target2> <target3> ...           -------------> Scan Multiple Targets
+    nmap -iL targets.txt                              ------------> insert all the targets inside targets.txt
+    nmap target/24                --------------> CIDR Notation ??> this scan from target.0-target.255 (ex:192.9.2.0- 192.9.2.255)
+    nmap target-{number<255} (eg : 192.98.9.10-<number>)  ----------> range scan from that ip to that range given <number>
+    
+    
+@_SAVE_RESULT : 
+    nmap -oN <file> target                 ----------------> output file in Normal
+    
+    
+@_SERVICES_DETECTION : 
+    nmap -sV <target>   ---------->service detection
+    nmap -Pn <target>  ------------> Disabling host discovery with -Pn causes Nmap to attempt the requested scanning functions   against every target IP address specified.
+    {-Pn: Treat all hosts as online -- skip host discovery}
+    
+    
+@SCRIPTS : 
+
+    nmap -Pn --script vuln <target> ------> vulnerability scanning
+    nmap -sV --script vuln <target> --script-args=unsafe=1 --script-args=exploit=<cve>    {eg : CVE-2019-0708}
+                                    |----> Instead of exploit use <cves>  to search for more vulnerabilities
+    
+    
+    Various scripts has various functions Like :
+        Malware-infection-Detection By : http-google-malware    (Website serving Malware)
+        Brute Force                    : ms-sql-brute
+        DOs attack with                : http-solutions
+        
+        
+@_OS_Detection : 
+    nmap -O target          -----------------> Scan OS Detection
